@@ -29,7 +29,7 @@ $apiInstance = new Coachbox\Services\Polar\API\UsersApi(
     new GuzzleHttp\Client(),
     $config
 );
-$user_id = 56; // int | User identifier
+$user_id = 789; // int | User identifier
 
 try {
     $apiInstance->deleteUser($user_id);
@@ -43,7 +43,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **user_id** | [**int**](../Model/.md)| User identifier |
+ **user_id** | **int**| User identifier |
 
 ### Return type
 
@@ -81,7 +81,7 @@ $apiInstance = new Coachbox\Services\Polar\API\UsersApi(
     new GuzzleHttp\Client(),
     $config
 );
-$user_id = 56; // int | User identifier
+$user_id = 789; // int | User identifier
 
 try {
     $result = $apiInstance->getUserInformation($user_id);
@@ -96,7 +96,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **user_id** | [**int**](../Model/.md)| User identifier |
+ **user_id** | **int**| User identifier |
 
 ### Return type
 
@@ -109,7 +109,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: Not defined
- - **Accept**: application/jsonapplication/xml
+ - **Accept**: application/json, application/xml
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
@@ -161,8 +161,8 @@ Name | Type | Description  | Notes
 
 ### HTTP request headers
 
- - **Content-Type**: application/xmlapplication/json
- - **Accept**: application/jsonapplication/xml
+ - **Content-Type**: application/xml, application/json
+ - **Accept**: application/json, application/xml
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 

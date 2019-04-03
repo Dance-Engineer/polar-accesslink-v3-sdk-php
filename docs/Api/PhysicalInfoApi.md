@@ -30,7 +30,7 @@ $apiInstance = new Coachbox\Services\Polar\API\PhysicalInfoApi(
     new GuzzleHttp\Client(),
     $config
 );
-$transaction_id = 56; // int | Transaction identifier
+$transaction_id = 789; // int | Transaction identifier
 $user_id = 56; // int | User identifier
 
 try {
@@ -45,8 +45,8 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **transaction_id** | [**int**](../Model/.md)| Transaction identifier |
- **user_id** | [**int**](../Model/.md)| User identifier |
+ **transaction_id** | **int**| Transaction identifier |
+ **user_id** | **int**| User identifier |
 
 ### Return type
 
@@ -99,7 +99,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **user_id** | [**int**](../Model/.md)| User identifier |
+ **user_id** | **int**| User identifier |
 
 ### Return type
 
@@ -112,7 +112,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: Not defined
- - **Accept**: application/jsonapplication/xml
+ - **Accept**: application/json, application/xml
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
@@ -154,9 +154,9 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **user_id** | [**int**](../Model/.md)| User identifier |
- **transaction_id** | [**int**](../Model/.md)| Transaction identifier |
- **physical_info_id** | [**int**](../Model/.md)| Physical information identifier |
+ **user_id** | **int**| User identifier |
+ **transaction_id** | **int**| Transaction identifier |
+ **physical_info_id** | **int**| Physical information identifier |
 
 ### Return type
 
@@ -169,7 +169,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: Not defined
- - **Accept**: application/jsonapplication/xml
+ - **Accept**: application/json, application/xml
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
@@ -194,7 +194,7 @@ $apiInstance = new Coachbox\Services\Polar\API\PhysicalInfoApi(
     new GuzzleHttp\Client(),
     $config
 );
-$transaction_id = 56; // int | Transaction identifier
+$transaction_id = 789; // int | Transaction identifier
 $user_id = 56; // int | User identifier
 
 try {
@@ -210,8 +210,8 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **transaction_id** | [**int**](../Model/.md)| Transaction identifier |
- **user_id** | [**int**](../Model/.md)| User identifier |
+ **transaction_id** | **int**| Transaction identifier |
+ **user_id** | **int**| User identifier |
 
 ### Return type
 
@@ -224,7 +224,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: Not defined
- - **Accept**: application/xmlapplication/json
+ - **Accept**: application/json, application/xml
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 

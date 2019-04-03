@@ -36,7 +36,7 @@ $apiInstance = new Coachbox\Services\Polar\API\TrainingDataApi(
     new GuzzleHttp\Client(),
     $config
 );
-$transaction_id = 56; // int | Transaction identifier
+$transaction_id = 789; // int | Transaction identifier
 $user_id = 56; // int | User identifier
 
 try {
@@ -51,8 +51,8 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **transaction_id** | [**int**](../Model/.md)| Transaction identifier |
- **user_id** | [**int**](../Model/.md)| User identifier |
+ **transaction_id** | **int**| Transaction identifier |
+ **user_id** | **int**| User identifier |
 
 ### Return type
 
@@ -105,7 +105,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **user_id** | [**int**](../Model/.md)| User identifier |
+ **user_id** | **int**| User identifier |
 
 ### Return type
 
@@ -118,7 +118,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: Not defined
- - **Accept**: application/jsonapplication/xml
+ - **Accept**: application/json, application/xml
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
@@ -160,9 +160,9 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **user_id** | [**int**](../Model/.md)| User identifier |
- **transaction_id** | [**int**](../Model/.md)| Transaction identifier |
- **exercise_id** | [**int**](../Model/.md)| Exercise identifier |
+ **user_id** | **int**| User identifier |
+ **transaction_id** | **int**| Transaction identifier |
+ **exercise_id** | **int**| Exercise identifier |
 
 ### Return type
 
@@ -175,7 +175,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: Not defined
- - **Accept**: application/jsonapplication/xml
+ - **Accept**: application/json, application/xml
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
@@ -217,9 +217,9 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **user_id** | [**int**](../Model/.md)| User identifier |
- **transaction_id** | [**int**](../Model/.md)| Transaction identifier |
- **exercise_id** | [**int**](../Model/.md)| Exercise identifier |
+ **user_id** | **int**| User identifier |
+ **transaction_id** | **int**| Transaction identifier |
+ **exercise_id** | **int**| Exercise identifier |
 
 ### Return type
 
@@ -232,7 +232,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: Not defined
- - **Accept**: application/jsonapplication/xml
+ - **Accept**: application/json, application/xml
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
@@ -241,7 +241,7 @@ Name | Type | Description  | Notes
 
 Get FIT (beta)
 
-Retrieve exercise in FIT format. Note! This interface is in beta phase. If there is anything we can help you with or you want to give us feedback, please contact [Support](#support).
+Retrieve exercise in FIT format. **Note!** This interface is in beta phase. If there is anything we can help you with or you want to give us feedback, please contact [Support](#support).
 
 ### Example
 ```php
@@ -274,9 +274,9 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **user_id** | [**int**](../Model/.md)| User identifier |
- **transaction_id** | [**int**](../Model/.md)| Transaction identifier |
- **exercise_id** | [**int**](../Model/.md)| Exercise identifier |
+ **user_id** | **int**| User identifier |
+ **transaction_id** | **int**| Transaction identifier |
+ **exercise_id** | **int**| Exercise identifier |
 
 ### Return type
 
@@ -331,9 +331,9 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **user_id** | [**int**](../Model/.md)| User identifier |
- **transaction_id** | [**int**](../Model/.md)| Transaction identifier |
- **exercise_id** | [**int**](../Model/.md)| Exercise identifier |
+ **user_id** | **int**| User identifier |
+ **transaction_id** | **int**| Transaction identifier |
+ **exercise_id** | **int**| Exercise identifier |
 
 ### Return type
 
@@ -388,9 +388,9 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **user_id** | [**int**](../Model/.md)| User identifier |
- **transaction_id** | [**int**](../Model/.md)| Transaction identifier |
- **exercise_id** | [**int**](../Model/.md)| Exercise identifier |
+ **user_id** | **int**| User identifier |
+ **transaction_id** | **int**| Transaction identifier |
+ **exercise_id** | **int**| Exercise identifier |
 
 ### Return type
 
@@ -403,7 +403,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: Not defined
- - **Accept**: application/jsonapplication/xml
+ - **Accept**: application/json, application/xml
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
@@ -428,7 +428,7 @@ $apiInstance = new Coachbox\Services\Polar\API\TrainingDataApi(
     new GuzzleHttp\Client(),
     $config
 );
-$type_id = "type_id_example"; // string | Sample type id
+$type_id = "B"; // string | Sample type id
 $user_id = 56; // int | User identifier
 $transaction_id = 56; // int | Transaction identifier
 $exercise_id = 56; // int | Exercise identifier
@@ -446,10 +446,10 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **type_id** | [**string**](../Model/.md)| Sample type id |
- **user_id** | [**int**](../Model/.md)| User identifier |
- **transaction_id** | [**int**](../Model/.md)| Transaction identifier |
- **exercise_id** | [**int**](../Model/.md)| Exercise identifier |
+ **type_id** | **string**| Sample type id |
+ **user_id** | **int**| User identifier |
+ **transaction_id** | **int**| Transaction identifier |
+ **exercise_id** | **int**| Exercise identifier |
 
 ### Return type
 
@@ -462,7 +462,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: Not defined
- - **Accept**: application/jsonapplication/xml
+ - **Accept**: application/json, application/xml
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
@@ -504,9 +504,9 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **user_id** | [**int**](../Model/.md)| User identifier |
- **transaction_id** | [**int**](../Model/.md)| Transaction identifier |
- **exercise_id** | [**int**](../Model/.md)| Exercise identifier |
+ **user_id** | **int**| User identifier |
+ **transaction_id** | **int**| Transaction identifier |
+ **exercise_id** | **int**| Exercise identifier |
 
 ### Return type
 
@@ -544,7 +544,7 @@ $apiInstance = new Coachbox\Services\Polar\API\TrainingDataApi(
     new GuzzleHttp\Client(),
     $config
 );
-$transaction_id = 56; // int | Transaction identifier
+$transaction_id = 789; // int | Transaction identifier
 $user_id = 56; // int | User identifier
 
 try {
@@ -560,8 +560,8 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **transaction_id** | [**int**](../Model/.md)| Transaction identifier |
- **user_id** | [**int**](../Model/.md)| User identifier |
+ **transaction_id** | **int**| Transaction identifier |
+ **user_id** | **int**| User identifier |
 
 ### Return type
 
@@ -574,7 +574,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: Not defined
- - **Accept**: application/jsonapplication/xml
+ - **Accept**: application/json, application/xml
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 

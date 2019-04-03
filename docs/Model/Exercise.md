@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**upload_time** | **string** | Time of the transfer from wrist unit to Polar database | [optional] 
 **id** | **int** | Id of the trainining session | [optional] 
+**upload_time** | **string** | Time of the transfer from wrist unit to Polar database | [optional] 
 **polar_user** | **string** | Absolute link to Polar user owning the training | [optional] 
 **transaction_id** | **int** | Id of the exercise-transaction this training was transferred in | [optional] 
 **device** | **string** | Polar product used in training | [optional] 

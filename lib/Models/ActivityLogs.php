@@ -94,7 +94,7 @@ class ActivityLogs implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $attributeMap = [
-        'activity_logs' => 'activity-logs'    ];
+        'activity_logs' => 'activity-log'    ];
 
     /**
      * Array of attributes to setter functions (for deserialization of responses)
